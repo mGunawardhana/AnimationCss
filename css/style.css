@@ -4,3 +4,30 @@
  * what's app - 071 - 7331792
  */
 
+body{
+    margin:0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0b1522;
+}
+
+.heart{
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    position: relative;transform: rotate(-45deg);
+}
+
+.heart:before{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    top: -50%;
+    border-radius: 50px;
+}
+
