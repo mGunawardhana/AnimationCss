@@ -15,12 +15,12 @@ body {
 }
 
 .heart {
-    height: 70px;
-    width: 70px;
+    height: 140px;
+    width: 140px;
     background: #f20000;
     position: relative;
     transform: rotate(-45deg);
-    box-shadow: -10px 10px 90px #f20000;
+    box-shadow: -20px 20px 180px #f20000;
     animation: heart 0.6s linear infinite;
 }
 
@@ -40,12 +40,12 @@ body {
 .heart:before {
     content: '';
     position: absolute;
-    height: 70px;
-    width: 70px;
+    height:140px;
+    width: 140px;
     background: #f20000;
     top: -50%;
-    border-radius: 50px;
-    box-shadow: -10px -10px 90px #f20000;
+    border-radius:80px;
+    box-shadow: -20px -20px 90px #f20000;
 }
 
 
@@ -54,11 +54,11 @@ body {
 .heart:after {
     content: '';
     position: absolute;
-    height: 70px;
-    width: 70px;
+    height: 140px;
+    width: 140px;
     background: #f20000;
     right: -50%;
-    border-radius: 50px;
-    box-shadow: 10px 10px 90px #f20000;
+    border-radius: 80px;
+    box-shadow: 20px 20px 90px #f20000;
 
 }
